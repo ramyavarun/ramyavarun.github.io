@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const environment = {\n  'production': true,\n  'X-RapidAPI-Key': 'a34e1e1ddamshfc313c772dff113p1d347fjsne9ddb6eaf904',\n  'X-RapidAPI-Host': 'free-nba.p.rapidapi.com',\n  'baseUrl': 'https://free-nba.p.rapidapi.com'\n};","map":null,"metadata":{},"sourceType":"module"}
