@@ -26,10 +26,14 @@
         </div>
 
         <div class="d-block mt-2" *ngIf="team?.averageScore">
-          Avg pts scored: {{ team.averageScore }}
+          Avg pts scored:<span class="font-weight-bold">{{ team.averageScore }}</span>
         </div>
         <div class="d-block" *ngIf="team?.conceededScore">
-          Avg pts conceeded: {{ team.conceededScore }}
+          Avg pts conceeded:<span class="font-weight-bold"> {{ team.conceededScore }}</span>
+        </div>
+        <div class ="d-block" *ngif="team?.conceededScore">
+            
+
         </div>
       </div>
       <div class="media-right">
